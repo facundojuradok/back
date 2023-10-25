@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Consulta por app React</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #eaeaea;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, span {
+      color: #003262;
+      font-weight: 700;
+    }
+    p {
+      color: #000;
+    }    
+    li {
+      color: #000;
+    } 
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Nuevo consulta desde web Bedelia.</h1>
+    <p>Recibiste una nueva consulta desde la web</p>    
+
+    <div class="datos">
+      <h2>Datos del remitente</h2>
+      <p><span>Nombre: </span> {{nombre}} </p>
+      <p><span>Apellido: </span> {{apellido}} </p>
+      <p><span>Correo: </span> {{correo}} </p>
+      <p><span>Teléfono: </span> {{telefono}} </p>
+      <p><span>Mensaje del remitente: </span> {{mensaje}} </p>
+    </div>
+  </div>
+</body>
+</html>
